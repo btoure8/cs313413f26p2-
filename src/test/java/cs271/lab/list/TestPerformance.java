@@ -13,7 +13,8 @@ public class TestPerformance {
   // (choose in conjunction with REPS below up to an upper limit where the clock
   // running time is in the tens of seconds)
   // TODO Question: What conclusions can you draw about the performance of LinkedList vs. ArrayList when
-  // comparing their running times for AddRemove vs. Access? Record those running times in README.txt!
+  // LinkedList is faster for AddRemove, while ArrayList is faster for Access.
+  // LinkedList performs better for AddRemove, while ArrayList performs better for Access.
   // TODO (optional) refactor to DRY
   // which of the two lists performs better as the size increases?
   private final int SIZE = 10;
